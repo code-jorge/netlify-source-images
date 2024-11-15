@@ -10,7 +10,7 @@ img.addEventListener("click", () => {
     img.src = largeURL;
     img.classList.add("expanded");
   } else {
-    img.src = smallImageUrl;
+    img.src = smallURL;
     img.classList.remove("expanded");
   }
 });
